@@ -64,6 +64,7 @@ export const arbor: Lead = {
   ],
   // prettier-ignore
   todos: [
+    /* eslint-disable sort-keys-fix/sort-keys-fix */
     { type: 'uncategorized',  description: '[general] todo: generate a clear story how i work together with product' },
     { type: 'uncategorized',  description: 'todo: generate a story how to approach damien being away from the team' },
     { type: 'uncategorized',  description: '[general] todo: generate an answer to how i can be inspirational and aspirational' },
@@ -73,10 +74,16 @@ export const arbor: Lead = {
     { type: 'uncategorized',  description: '[general] todo: prepare a story of scaling engineering from 80 to 800 within getir, and what my role was with the different headcounts' },
     { type: 'uncategorized',  description: '[general] todo: generate an answer to the question why i want to do contract/interim/fractional vs employment work' },
     { type: 'uncategorized',  description: '[general] todo: generate an answer to the question how you prioritize tech debt against feature development' },
+    { type: 'uncategorized',  description: '[general] todo: generate an answer to the question what my salary expectation is' },
     { type: 'uncategorized',  description: '[general] todo: practice star answers' },
     { type: 'uncategorized',  description: '[general] todo: practice mock interviews' },
     { type: 'uncategorized',  description: '[general] todo: get knowledgebase into verve' },
     { type: 'uncategorized',  description: '[general] todo: internalise arbor feedback: not sussinct / detailed enough' },
+    { type: 'uncategorized',  description: '[general] todo: generate 10 great interview questions' },
+    { type: 'uncategorized',  description: '[general] todo: based on job description, ask chat gpt to generate 10 examples from my past questions and answer them' },
+    { type: 'uncategorized',  description: '[general] todo: generate different queries: e.g. what are gaps between my experience and this job OR where can i excel in this job?' },
+    { type: 'uncategorized',  description: '[general] todo: generate logic to differentiate between asking chatgpt to just generate text vs go into a back and forth (like the current output)' },
+    /* eslint-enable sort-keys-fix/sort-keys-fix */
   ],
   url: 'https://arbor-education.com/',
 }

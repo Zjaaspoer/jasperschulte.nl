@@ -1,5 +1,0 @@
----
-description: running package.json scripts
-alwaysApply: true
----
-- when running package.json scripts, always use `yarn ...` instead of `npm run ...`

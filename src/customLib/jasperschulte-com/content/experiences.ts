@@ -13,7 +13,7 @@ export interface Experience {
 export const experiences: Experience[] = [
   {
     companyName: 'Booking.com',
-    endDate: null,
+    endDate: new Date(2025, 8, 31),
     highlights: [
       "Leader of the Web Platform & Mobile App Platform track (headcount ~150), accountable for the architecture, scalability, and developer experience of Booking.com's core user platforms.",
       'Spearheaded modernization of the website and app platforms, driving improvements in performance, accessibility, and velocity across global product teams.',

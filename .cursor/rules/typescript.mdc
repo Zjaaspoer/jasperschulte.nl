@@ -1,5 +1,0 @@
----
-description: typescript
-alwaysApply: true
----
-- to compile the TypeScript code, run `yarn compile`. this way TypeScript errors can also be checked
